@@ -1,0 +1,13 @@
+@media screen and (max-width:960px){
+    .container{
+        max-width: 960px;
+        
+    }
+    header{
+        max-width: 960px;
+    }
+    .nav-left{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

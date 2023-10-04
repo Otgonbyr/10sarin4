@@ -1,0 +1,339 @@
+.h-230px{
+    height: 230px;
+}
+/*----------------------top-right----------------------*/
+.figure-top-right{
+    width: 550px;
+    height: 385px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+}
+.figure-text{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 550px;
+    height: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 30px;
+    color: white;
+}
+.hover-top-img img{
+    transform: scale(1);
+    transition: .3s;
+}
+.hover-top-img:hover img{
+    transform: scale(1.1);
+}
+.figure-top-right .figure-text:hover{
+    opacity: 1;
+}
+.figure-top-right .figure-text .text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-top-right .figure-text:hover .text{
+    width: 550px;
+    height: 385px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+/*----------------------hover01----------------------*/
+.figure{
+    width: 263px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.uk_trip{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 263px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+.figure .uk_trip:hover{
+    opacity: 1;
+}
+.figure .uk_trip .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure .uk_trip:hover .uk_text{
+    width: 263px;
+    height: 170px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.hover01 img{
+    transform: scale(1);
+    transition: .3s;
+}
+.hover01:hover img{
+	transform: scale(1.1);
+}
+/*----------------------hover02----------------------*/
+.figure-1{
+    width: 210px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.figure-1 .uk_trap:hover{
+    opacity: 1;
+}
+.figure-1 .uk_trap .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-1 .uk_trap:hover .uk_text{
+    width: 210px;
+    height: 150px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.uk_trap{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 210px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+/*----------------------figure-s5----------------------*/
+.figure-s5{
+    width: 260px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.figure-s5 .uk_trp:hover{
+    opacity: 1;
+}
+.figure-s5 .uk_trp .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-s5 .uk_trp:hover .uk_text{
+    width: 260px;
+    height: 230px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.uk_trp{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 260px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+/*----------------------figure-s7----------------------*/
+.figure-s7{
+    width: 530px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.figure-s7 .s7-trip:hover{
+    opacity: 1;
+}
+.figure-s7 .s7-trip .s7-text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-s7 .s7-trip:hover .s7-text{
+    width: 530px;
+    height: 190px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.s7-trip{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 530px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+/*----------------------figure-content-body-right----------------------*/
+.figure-content-right{
+    width: 290px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.figure-c-r{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 290px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+.figure-content-right .figure-c-r:hover{
+    opacity: 1;
+}
+.figure-content-right .figure-c-r .figure-c-r-text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-content-right .figure-c-r:hover .figure-c-r-text{
+    width: 290px;
+    height: 170px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+/*----------------------h6----------------------*/
+.h6-hover{
+    transform: scale(1);
+    transition: 1s;
+}
+.h6-hover:hover .h6-text{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color:rgb(220, 150, 150);
+}
+/*----------------------grid-left-hover----------------------*/
+.grid-right-card{
+    width: 263px;
+    height: 243px;
+    overflow: hidden;
+}
+.grid-right-card-text{
+    margin-top: 130px;
+}
+.grid-right-card-hover{
+    transform: scale(1);
+    transition: 0.3s;
+}
+.grid-right-card-hover:hover img{
+    width: 263px;
+    height: 243px;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/*----------------------content-body-top----------------------*/
+.c-t-b{
+    transform: scale(1);
+    transition: 0.3s;
+}
+.c-t-b:hover button {
+    transform: scale(1.1);
+    transition: 0.5;
+    background-color: #407CE8;
+}
+.c-t-b:hover .p-blue{
+    color: #407CE8;
+}
+/*----------------------home-hover----------------------*/
+.HOME-HOVER{
+    overflow: hidden;
+}
+.home-hover{
+    transform: scale(1);
+    transition: 0.3s;
+    overflow: hidden;
+}
+.home-hover:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.home-hover{
+    width: 263px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.home-hover-trip{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 263px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+.home-hover .home-hover-trip:hover{
+    opacity: 1;
+}
+.home-hover .home-hover-trip .home-hover-text{
+    transition: 0.3;
+    opacity: 1;
+}
+.home-hover .home-hover-trip:hover .home-hover-text{
+    width: 263px;
+    height: 170px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
