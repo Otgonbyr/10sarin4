@@ -1,12 +1,39 @@
-@media screen and (max-width:960px){
+@media screen and (max-width:1000px){
     .container{
-        max-width: 960px;
+        max-width: 1000px;
     }
     header{
-        max-width: 960px;
+        max-width: 400px;
+        justify-content: flex-start;
     }
-    .nav-left{
-        display: flex;
-        flex-wrap: wrap;
+    .top-section{
+        max-width: 1000px;
+        background-color: white;
+    }
+    .nav-menu,
+    .content-body-top,
+    .content-body-right,
+    .top-hover-img,
+    .content-hr,
+    .top-row,
+    .home-container,
+    .story-container,
+    .grid-container,
+    .section-5,
+    .section-6,
+    .section-7,
+    .top-left{
+        display: none;
+    }
+    .nav-left img{
+        width: 119px;
+    }
+    .nav-right{
+        width: 220px;
+        gap: 5px;
+    }
+    .nav-right div{
+        width: 80px;
+        height: 46px;
     }
 }
