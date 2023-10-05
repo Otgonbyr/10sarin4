@@ -54,6 +54,9 @@ h3 {
 .black {
   color: black;
 }
+.content-hr{
+  margin-right: 0;
+}
 /*------------------------------NAV------------------------------*/
 header {
   margin-top: 20px;
@@ -307,7 +310,9 @@ main {
   height: 21px;
 }
 /*------RIGHT------*/
+
 .ontsloh {
+  margin-left: 60px;
   width: 290px;
   gap: 10px;
 }
@@ -325,7 +330,7 @@ main {
   border-radius: 5px;
 }
 .body-card-right {
-  margin-top: 50px;
+  margin: 50px 0px 0px 60px;
 }
 .comment {
   width: 290px;
