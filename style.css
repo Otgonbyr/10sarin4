@@ -95,6 +95,9 @@ nav {
   flex-direction: row;
   gap: 50px;
 }
+.media-top{
+  display: none;
+}
 /*------------------------------MAIN------------------------------*/
 main {
   margin-top: 20px;
@@ -267,10 +270,6 @@ main {
 }
 .body-card-comment {
   width: 330px;
-}
-.body-card-img {
-  width: 210px;
-  height: 150px;
 }
 .body-card-text {
   width: 480px;
@@ -603,4 +602,46 @@ main {
 .footer-svg svg {
   width: 20px;
   height: 20px;
+}
+
+/*----------MEDIAq-TOP----------*/
+.m-0{
+  margin: 5px;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
+.white-media{
+  font-size: 13px;
+  color: white;
+}
+.top-media{
+  position: relative;
+  width: 1000px;
+  height: 666px;
+}
+.top-media-img img{
+  width: 1000px;
+  position: absolute;
+}
+.top-media-text{
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  bottom: 0;
+  margin: 0px 0px 50px 30px;
+}
+.top-media-button{
+  width: 190px;
+  height: 35px;
+  background: linear-gradient(129deg, #c40097, #d6710b);
+  border-radius: 20px;
+  color: white;
+  border: solid;
+}
+.width500px{
+  width: 500px;
 }

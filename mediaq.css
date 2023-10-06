@@ -6,9 +6,8 @@
         max-width: 400px;
         justify-content: flex-start;
     }
-    .top-section{
-        max-width: 1000px;
-        background-color: white;
+    .media-top{
+        display: block;
     }
     .nav-menu,
     .content-body-top,
@@ -25,6 +24,9 @@
     .top-left{
         display: none;
     }
+    .top-section{
+        display: none;
+    }
     .nav-left img{
         width: 119px;
     }
@@ -35,5 +37,26 @@
     .nav-right div{
         width: 80px;
         height: 46px;
+    }
+    .content-body-card{
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .body-card{
+        max-width: 464px;
+        max-height: 260px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container{
+        max-width: 1000px;
+    }
+    .body-card-text .none{
+        display: none;
+    }
+    h5{
+        font-size: 15px;
     }
 }
