@@ -59,4 +59,8 @@
     h5{
         font-size: 15px;
     }
+    .middle-overflow{
+        max-width: 464px;
+        height: 260px;
+    }
 }
